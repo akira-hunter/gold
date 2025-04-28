@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-size: cover;
+    color: gold;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin-left: 24px;
+}
+
+nav a, nav button{
+    text-decoration: none;
+    color: gold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+nav button:hover , nav a:hover{
+    color: gold;
+}
+
+.form-popup {
+    display: none;
+    top: 20%;
+    left: 50%;
+    transform: (-50%, -20%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.form-container input[type="email"], .form-container input[type="password"], .form-container input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: #333;
+    border: none;
+    color: #ffd700;
+    border-radius: 5px;
+}
+
+.form-container .cancel{
+    background-color: darkred;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+

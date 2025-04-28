@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Clan Verse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.JPG"
+        width="75px" height="75px">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Clans</a>
+                </li>
+                <li>
+                    <button id="loginbtn">Login</button>
+                </li>
+                <li><button id="signupbtn">Sign Up</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h2>hello world 
+        this is my first website page
+    </h2>
+    <div class="Form-popup" id="loginForm">
+        <form class="Form-Container">
+            <h2>Login</h2>
+            <input type="email" placeholder="Email" required>
+            <label>
+                <input type="checkbox"> Remember Me 
+            </label>
+            <button type="button" class="btn cancel" onclick="closeForm('LoginForm')">close</button>
+        </form>
+    </div>
+    <div class="form-popup" id="SignupForm">
+        <form class="Form-container"><h2>Sign Up</h2>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="text" placeholder="Mobile Number" required>
+            <button type="submit" class="btn">Sign Up</button>
+            <button type="button" class="btn cancel" onclick="closeForm('signupform')">Close</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
